@@ -19,6 +19,4 @@ const addElement = (arr) => {
 const ulElement = document.getElementById("ingredients");
 const ingredientsList = addElement(ingredients);
 
-ingredientsList.forEach((liElement) => {
-  ulElement.appendChild(liElement);
-});
+ulElement.append(...ingredientsList);

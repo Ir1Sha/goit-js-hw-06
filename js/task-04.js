@@ -8,10 +8,6 @@ decrButton.addEventListener("click", () => {
 
   counterValue--;
 
-  if (counterValue < 0) {
-    counterValue = 0;
-  }
-
   elementValue.textContent = counterValue;
 });
 
